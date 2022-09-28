@@ -1,0 +1,25 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+
+}
+
+.information button {
+  color: blueviolet;
+  width: 100px;
+  margin-top: 20px;
+}
+
+.information button:hover {
+  cursor: pointer;
+}
